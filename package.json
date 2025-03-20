@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "yarn prisma:deploy && node dist/index.js",
+    "prisma:deploy": "npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
