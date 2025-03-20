@@ -107,7 +107,7 @@ docker run -p 3000:3000 --env DATABASE_URL="postgresql://user:password@localhost
 ---
 
 ## 👤 Author
-- **Your Name** - [GitHub](https://github.com/your-profile)
+- **Apisit Sianglert** - [GitHub](https://github.com/john-apisit)
 
 ---
 
